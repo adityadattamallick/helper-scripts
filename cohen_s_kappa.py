@@ -5,7 +5,7 @@ import pandas as pd
 from pathlib import Path
 import cv2
 
-def get_yolov8seg_predictions(model_path, data_yaml, conf_threshold=0.25, iou_threshold=0.5, split='val'):
+def get_yolov8seg_predictions(model_path, data_yaml, conf_threshold=0.25, iou_threshold=0.45, split='val'):
     """
     Get YOLOv8 segmentation predictions for evaluation
     
